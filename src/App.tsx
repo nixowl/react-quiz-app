@@ -179,7 +179,7 @@ function App() {
                       <SelectValue placeholder="Select category" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="Javascript">Javascript</SelectItem>
+                      <SelectItem value="JavaScript">Javascript</SelectItem>
                       <SelectItem value="HTML">HTML</SelectItem>
                       <SelectItem value="BASH">Bash</SelectItem>
                       <SelectItem value="PHP">PHP</SelectItem>
