@@ -95,8 +95,6 @@ function App() {
   const formSubmitHandler = (e: React.FormEvent) => {
     e.preventDefault();
     getParamQuiz();
-    console.log(difficulty)
-    console.log(tag)
   };
 
   const isCorrect = (question: Question, answerKey: string): boolean => {
@@ -183,6 +181,12 @@ function App() {
                       <SelectItem value="HTML">HTML</SelectItem>
                       <SelectItem value="BASH">Bash</SelectItem>
                       <SelectItem value="PHP">PHP</SelectItem>
+                      <SelectItem value="Kubernetes">Kubernetes</SelectItem>
+                      <SelectItem value="Docker">Docker</SelectItem>
+                      <SelectItem value="Linux">Linux</SelectItem>
+                      <SelectItem value="Wordpress">Wordpress</SelectItem>
+                      <SelectItem value="MySQL">MySQL</SelectItem>
+                      <SelectItem value="DevOps">DevOps</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
